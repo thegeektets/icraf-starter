@@ -1,0 +1,104 @@
+@charset "utf-8";
+/* CSS Document */
+/*Admin CSS*/
+.team-settings .team_member_social_icon, .team-settings .remove_icon {
+    -webkit-background-size: 100% auto !important;
+    background-size: 100% auto !important;
+    border: 1px solid rgb(221, 221, 221);
+    cursor: pointer;
+    display: inline-block;
+    height: 20px;
+    vertical-align: top;
+    width: 20px
+    }
+
+.team-settings .remove_icon {
+    text-align: center
+    }
+
+.team-settings .team_member_social_icon.empty_icon {
+    background: url(empty-icon.png) no-repeat scroll 0 0 rgba(0, 0, 0, 0)
+    }
+
+#team_metabox ul.team_bg_img_list li {
+    display: inline-block;
+    margin: 5px
+    }
+
+#team_metabox ul.team_bg_img_list li img {
+    border: 2px solid #fff
+    }
+
+#team_metabox ul.team_bg_img_list li.bg-selected img {
+    border: 2px solid #ff5a11
+    }
+
+#team_metabox .team_loading_taxonomy_category {
+    background: url(loading.gif) no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 11px;
+    margin-bottom: 20px;
+    width: 30px
+    }
+
+#team_metabox ul.content_source_area {
+    margin-left: 15px
+    }
+
+#team_metabox ul.content_source_area .content-source-box {
+    display: none
+    }
+
+#team_metabox ul.content_source_area li div.active {
+    background: none repeat scroll 0 0 #e6e6e6;
+    border-left: 3px solid #11b063;
+    display: block;
+    margin: 10px 10px 0 20px;
+    padding: 10px 0 10px 5px
+    }
+	
+	
+#team_metabox .team-grid-builder{}	
+	
+#team_metabox .team-grid-builder .item {
+  background: rgb(221, 221, 221) none repeat scroll 0 0;
+  margin-bottom: 3px;
+  padding: 5px 5px 5px 20px;
+  position: relative;
+}
+
+
+#team_metabox .team-grid-builder .item:hover {
+  background: url("move.png") no-repeat scroll 6px 4px rgb(255, 255, 255);
+
+}
+
+#team_metabox .team-grid-builder .item-option{
+	display:none;
+
+}
+
+#team_metabox .team-grid-builder .item.active .item-option{
+	display:block;
+
+}
+
+
+
+
+#team_metabox .team-grid-builder .input-switch {
+  float: right;
+  position: absolute;
+  right: 50px;
+  top: 0;
+}
+
+#team_metabox .ui-sortable-helper{
+	border:1px dashed #999;
+
+}
+
+
+
+
+
+
